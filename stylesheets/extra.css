@@ -1,0 +1,69 @@
+:root {
+  --md-primary-fg-color:        #1a1a1a;
+  --md-primary-fg-color--light: #DAA520;
+  --md-primary-fg-color--dark:  #34164A;
+
+  --md-accent-fg-color: #DAA520;
+}
+
+a {
+  color: #daa520;
+}
+
+/* a:hover {
+  color: white;
+} */
+
+h1 {
+  color: #daa520;
+}
+
+.md-content {
+  --md-typeset-a-color: #31a1f0;
+}
+
+/* a.md-nav__link {
+  color: black;
+} */
+
+a.md-nav__link--active {
+  --md-typeset-a-color: #DAA520;
+}
+
+.md-nav__link {
+  color: var(--md-typeset-color);
+}
+
+.md-nav__link--passed {
+  color: var(--md-default-fg-color--light);
+}
+
+a.md-nav__link:hover {
+  color: #daa520;
+}
+
+/* label.md-nav__title {
+  color: #daa520;
+} */
+
+.video-wrapper {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+.video-wrapper > iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.mermaid {
+  text-align: center;
+}
